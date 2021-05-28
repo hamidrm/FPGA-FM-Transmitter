@@ -1,0 +1,5 @@
+vhdl work "ipcore_dir/clock.vhd"
+vhdl work "displayer.vhd"
+vhdl work "adc.vhd"
+vhdl work "top.vhd"
+vhdl work "FQFW.vhf"

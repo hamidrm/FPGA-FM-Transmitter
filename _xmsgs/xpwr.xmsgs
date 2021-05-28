@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="Power" num="1693" delta="new" >
+                      --------------------------------------------------------------
+                      The power estimate will be calculated using PRODUCTION data.
+                      --------------------------------------------------------------
+
+</msg>
+
+<msg type="warning" file="Power" num="1489" delta="new" >The loaded design, &quot;<arg fmt="%s" index="1">top.ncd</arg>&quot;, is not fully routed and/or placed and thus may lead to inaccurate or incorrect power and thermal analysis results.  It is highly suggested to use only fully placed and routed designs with XPower Analyzer in order to achieve an accurate analysis.
+</msg>
+
+<msg type="warning" file="PowerEstimator" num="270" delta="new" >Power estimate is considered inaccurate. To see details, generate an advanced report with the &quot;-v&quot; switch.
+</msg>
+
+</messages>
+

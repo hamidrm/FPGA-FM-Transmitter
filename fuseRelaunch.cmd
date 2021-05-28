@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "D:/FPGA-Spartan6/fm_transmitter/top_isim_beh.exe" -prj "D:/FPGA-Spartan6/fm_transmitter/top_beh.prj" "work.top" 
