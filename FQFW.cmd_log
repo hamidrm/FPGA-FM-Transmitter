@@ -1,1 +1,0 @@
-sch2vhdl -intstyle ise -family spartan6 -tionly -w D:/FPGA-Spartan6/fm_transmitter/FQFW.sch FQFW.vhi 

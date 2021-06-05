@@ -1,8 +1,0 @@
-INTSTYLE=impact
-INFILE=D:\FPGA-Spartan6\fm_transmitter\impact.xsl
-OUTFILE=D:\FPGA-Spartan6\fm_transmitter\impact.xsl
-FAMILY=Single
-PART=Single
-WORKINGDIR=D:\FPGA-Spartan6\fm_transmitter
-LICENSE=iMPACT
-USER_INFO=iMPACT

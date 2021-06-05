@@ -1,4 +1,0 @@
-vhdl isim_temp "ipcore_dir/clock.vhd"
-vhdl isim_temp "displayer.vhd"
-vhdl isim_temp "adc.vhd"
-vhdl isim_temp "top.vhd"

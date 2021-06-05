@@ -1,26 +1,0 @@
-Loading device for application Rf_Device from file '6slx9.nph' in environment
-C:\Xilinx\14.7\ISE_DS\ISE\.
-   "top" is an NCD, version 3.2, device xc6slx9, package tqg144, speed -2
-
-INFO:Power:1693 - 
-   --------------------------------------------------------------
-                         The power estimate will be calculated using PRODUCTION
-   data.
-   --------------------------------------------------------------
-
-Design load 20% completeThere are 10 unrouted pins.  Running quick router.
-WARNING:Power:1489 - The loaded design, "top.ncd", is not fully routed and/or
-   placed and thus may lead to inaccurate or incorrect power and thermal
-   analysis results.  It is highly suggested to use only fully placed and routed
-   designs with XPower Analyzer in order to achieve an accurate analysis.
-Design load 25% completeDesign load 30% completeDesign load 60% completeDesign load 95% completeDesign load 100% completeWARNING:PowerEstimator:270 - Power estimate is considered inaccurate. To see details, generate an advanced report with the "-v" switch.
-Running Vector-less Activity Propagation
-......................
-Finished Running Vector-less Activity Propagation
-Finished Running Vector-less Activity Propagation 0 secs 
-Power report saved as top.pwr.
-
-Number of error messages: 0
-Number of warning messages: 2
-Number of info messages: 1
-
