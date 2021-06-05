@@ -1,1 +1,3 @@
+work	"adc.vhd"
+work	"displayer.vhd"
 work	"top.vhd"

@@ -1,78 +1,12 @@
 iMPACT Version: 14.7
 
-iMPACT log file Started on Sat Feb 02 22:41:16 2019
+iMPACT log file Started on Sat Jun 05 13:19:32 2021
 
 Welcome to iMPACT
 iMPACT Version: 14.7
 Project: 'D:\FPGA-Spartan6\fm_transmitter\\auto_project.ipf' already exists.
 Original project has been renamed to'D:\FPGA-Spartan6\fm_transmitter\\auto_project_1.ipf'.
 Project: D:\FPGA-Spartan6\fm_transmitter\\auto_project.ipf created.
-// *** BATCH CMD : setMode -bs
-// *** BATCH CMD : setMode -ss
-// *** BATCH CMD : setMode -sm
-// *** BATCH CMD : setMode -hw140
-// *** BATCH CMD : setMode -spi
-// *** BATCH CMD : setMode -acecf
-// *** BATCH CMD : setMode -acempm
-// *** BATCH CMD : setMode -pff
-Welcome to iMPACT
-iMPACT Version: 14.7
-Project: D:\FPGA-Spartan6\fm_transmitter\\auto_project.ipf created.
-// *** BATCH CMD : setMode -bs
-// *** BATCH CMD : setMode -ss
-// *** BATCH CMD : setMode -sm
-// *** BATCH CMD : setMode -hw140
-// *** BATCH CMD : setMode -spi
-// *** BATCH CMD : setMode -acecf
-// *** BATCH CMD : setMode -acempm
-// *** BATCH CMD : setMode -pff
-Welcome to iMPACT
-iMPACT Version: 14.7
-Project: D:\FPGA-Spartan6\fm_transmitter\\auto_project.ipf created.
-// *** BATCH CMD : setMode -bs
-GUI --- Auto connect to cable...
-// *** BATCH CMD : setCable -port auto
-INFO:iMPACT - Digilent Plugin: Plugin Version: 2.4.4
-INFO:iMPACT - Digilent Plugin: no JTAG device was found.
-AutoDetecting cable. Please wait.
-*** WARNING ***: When port is set to auto detect mode, cable speed is set todefault 6 MHz regardless of explicit arguments supplied for setting the baudrates
-PROGRESS_START - Starting Operation.
-Connecting to cable (Usb Port - USB21).
-Checking cable driver.
- Driver file xusb_xlp.sys found.
- Driver version: src=1029, dest=1029.
- Driver windrvr6.sys version = 10.2.1.0. WinDriver v10.21 Jungo (c) 1997 - 2010 Build Date: Aug 31 2010 x86_64 64bit SYS14:14:44, version = 1021.
-Cable connection failed.
-Connecting to cable (Parallel Port - LPT1).
-Checking cable driver.
- Driver windrvr6.sys version = 10.2.1.0. WinDriver v10.21 Jungo (c) 1997 - 2010 Build Date: Aug 31 2010 x86_64 64bit SYS14:14:44, version = 1021.
-Cable connection failed.
-Connecting to cable (Parallel Port - LPT2).
-Checking cable driver.
- Driver windrvr6.sys version = 10.2.1.0. WinDriver v10.21 Jungo (c) 1997 - 2010 Build Date: Aug 31 2010 x86_64 64bit SYS14:14:44, version = 1021.
-Cable connection failed.
-Connecting to cable (Parallel Port - LPT3).
-Checking cable driver.
- Driver windrvr6.sys version = 10.2.1.0. WinDriver v10.21 Jungo (c) 1997 - 2010 Build Date: Aug 31 2010 x86_64 64bit SYS14:14:44, version = 1021.
-Cable connection failed.
-Connecting to cable (Parallel Port - LPT4).
-Checking cable driver.
- Driver windrvr6.sys version = 10.2.1.0. WinDriver v10.21 Jungo (c) 1997 - 2010 Build Date: Aug 31 2010 x86_64 64bit SYS14:14:44, version = 1021.
-Cable connection failed.
-PROGRESS_END - End Operation.
-Elapsed time =      4 sec.
-Cable autodetection failed.
-WARNING:iMPACT:923 - Can not find cable, check cable setup !// *** BATCH CMD : addDevice -p 1 -file"D:/FPGA-Spartan6/fm_transmitter/top.bit"
-'1': Loading file 'D:/FPGA-Spartan6/fm_transmitter/top.bit' ...
-done.
-INFO:iMPACT:1777 - 
-   Reading C:/Xilinx/14.7/ISE_DS/ISE/spartan6/data/xc6slx9.bsd...
-INFO:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the bitstream   stored in memory,
-   but the original bitstream file remains unchanged.
-UserID read from the bitstream file = 0xFFFFFFFF.
-Data width read from the bitstream file = 1.
-INFO:iMPACT:501 - '1': Added Device xc6slx9 successfully.
-----------------------------------------------------------------------
 // *** BATCH CMD : setMode -pff
 // *** BATCH CMD : addConfigDevice  -name "Untitled" -path"D:\FPGA-Spartan6\fm_transmitter\"
 // *** BATCH CMD : setSubmode -pffspi
@@ -92,10 +26,9 @@ Overriding chain at index 0.
 // *** BATCH CMD : setAttribute -configdevice -attr dir -value "UP"
 // *** BATCH CMD : setAttribute -configdevice -attr multiboot -value "FALSE"
 // *** BATCH CMD : setAttribute -configdevice -attr spiSelected -value "TRUE"
-// *** BATCH CMD : addPromDevice -p 1 -size 1024 -name 1M
-'1': Added Device 1M successfully.
+// *** BATCH CMD : addPromDevice -p 1 -size 64 -name 64K
+'1': Added Device 64K successfully.
 ----------------------------------------------------------------------
-// *** BATCH CMD : setMode -bs
 // *** BATCH CMD : setMode -pff
 // *** BATCH CMD : addDeviceChain -index 0
 Override chain at index 0.
@@ -117,7 +50,7 @@ Overriding chain at index 0.
       Auto Select : false
       Number of Revisions : 1
       Number of PROMs : 1
-      PROM Name : 1M   PROM Size : 1048576 bits
+      PROM Name : 64K   PROM Size : 65536 bits
 -------------------------- END of Report ----------------------------
 // *** BATCH CMD : setAttribute -design -attr name -value "0000"
 // *** BATCH CMD : addDevice -p 1 -file"D:/FPGA-Spartan6/fm_transmitter/top.bit"
@@ -126,23 +59,24 @@ INFO:iMPACT - Elapsed time =      0 sec.
 done.
 INFO:iMPACT:501 - '1': Added Device xc6slx9 successfully.
 ----------------------------------------------------------------------
-Add one device.533d9INFO:iMPACT - Current time: 13/11/1397 10:42:44 ب.ظ
+Add one device.533d9// *** BATCH CMD : addPromDevice -p 2 -size 2048 -name 2M
+'2': Added Device 2M successfully.
+----------------------------------------------------------------------
+// *** BATCH CMD : deletePromDevice -position 1
+----------------------------------------------------------------------
+INFO:iMPACT - Current time: 05/06/2021 13:21:05
 // *** BATCH CMD : setMode -pff
 // *** BATCH CMD : setSubmode -pffspi
 Total configuration bit size = 2727072  bits.
 Total configuration byte size = 340884 bytes.
 // *** BATCH CMD : generate
 0x53394 (340884) bytes loaded up from 0x0
-Using user-specified prom size of 1024K
+Using user-specified prom size of 2048K
 Writing file "D:\FPGA-Spartan6\fm_transmitter\Untitled.mcs".
 Writing file "D:\FPGA-Spartan6\fm_transmitter\Untitled.prm".
 Writing file "D:\FPGA-Spartan6\fm_transmitter\Untitled.cfi".
 // *** BATCH CMD : setCurrentDesign -version 0
 // *** BATCH CMD : setMode -bs
-Selected part: W25Q32BV
-// *** BATCH CMD : attachflash -position 1 -spi "W25Q32BV"
-Unprotect sectors: FALSE
-// *** BATCH CMD : assignfiletoattachedflash -position 1 -file"D:/FPGA-Spartan6/fm_transmitter/Untitled.mcs"
 GUI --- Auto connect to cable...
 // *** BATCH CMD : setCable -port auto
 INFO:iMPACT - Digilent Plugin: Plugin Version: 2.4.4
@@ -154,74 +88,53 @@ Connecting to cable (Usb Port - USB21).
 Checking cable driver.
  Driver file xusb_xlp.sys found.
  Driver version: src=1029, dest=1029.
- Driver windrvr6.sys version = 10.2.1.0. WinDriver v10.21 Jungo (c) 1997 - 2010 Build Date: Aug 31 2010 x86_64 64bit SYS14:14:44, version = 1021.
-Cable connection failed.
-Connecting to cable (Parallel Port - LPT1).
-Checking cable driver.
- Driver windrvr6.sys version = 10.2.1.0. WinDriver v10.21 Jungo (c) 1997 - 2010 Build Date: Aug 31 2010 x86_64 64bit SYS14:14:44, version = 1021.
-Cable connection failed.
-Connecting to cable (Parallel Port - LPT2).
-Checking cable driver.
- Driver windrvr6.sys version = 10.2.1.0. WinDriver v10.21 Jungo (c) 1997 - 2010 Build Date: Aug 31 2010 x86_64 64bit SYS14:14:44, version = 1021.
-Cable connection failed.
-Connecting to cable (Parallel Port - LPT3).
-Checking cable driver.
- Driver windrvr6.sys version = 10.2.1.0. WinDriver v10.21 Jungo (c) 1997 - 2010 Build Date: Aug 31 2010 x86_64 64bit SYS14:14:44, version = 1021.
-Cable connection failed.
-Connecting to cable (Parallel Port - LPT4).
-Checking cable driver.
- Driver windrvr6.sys version = 10.2.1.0. WinDriver v10.21 Jungo (c) 1997 - 2010 Build Date: Aug 31 2010 x86_64 64bit SYS14:14:44, version = 1021.
-Cable connection failed.
-PROGRESS_END - End Operation.
-Elapsed time =      3 sec.
-Cable autodetection failed.
-WARNING:iMPACT:923 - Can not find cable, check cable setup !GUI --- Auto connect to cable...
-// *** BATCH CMD : setCable -port auto
-INFO:iMPACT - Digilent Plugin: Plugin Version: 2.4.4
-INFO:iMPACT - Digilent Plugin: no JTAG device was found.
-AutoDetecting cable. Please wait.
-*** WARNING ***: When port is set to auto detect mode, cable speed is set todefault 6 MHz regardless of explicit arguments supplied for setting the baudrates
-PROGRESS_START - Starting Operation.
-Connecting to cable (Usb Port - USB21).
-Checking cable driver.
- Driver file xusb_xlp.sys found.
- Driver version: src=1029, dest=1029.
- Driver windrvr6.sys version = 10.2.1.0. WinDriver v10.21 Jungo (c) 1997 - 2010 Build Date: Aug 31 2010 x86_64 64bit SYS14:14:44, version = 1021.
+ Driver windrvr6.sys version = 12.0.0.0. WinDriver v12.0.0 Jungo Connectivity (c) 1997 - 2015 Build Date: Aug 12 2015x86_64 64bit SYS 09:44:29, version = 1200.
  Cable PID = 0008.
  Max current requested during enumeration is 74 mA.
 Type = 0x0004.
  Cable Type = 3, Revision = 0.
  Setting cable speed to 6 MHz.
 Cable connection established.
-Firmware version = 1029.
-File version of C:/Xilinx/14.7/ISE_DS/ISE/data/xusb_xlp.hex = 1303.
+Firmware version = 1303.
+File version of D:/Xilinx/14.7/ISE_DS/ISE/data/xusb_xlp.hex = 1303.
 Firmware hex file version = 1303.
-Downloading C:/Xilinx/14.7/ISE_DS/ISE/data/xusb_xlp.hex.
-Downloaded firmware version = 1303.
 PLD file version = 0012h.
  PLD version = 0012h.
 PROGRESS_END - End Operation.
-Elapsed time =      2 sec.
+Elapsed time =      1 sec.
 Type = 0x0004.
  ESN device is not available for this cable.
-INFO:iMPACT - Current time: 13/11/1397 10:43:38 ب.ظ
+Attempting to identify devices in the boundary-scan chain configuration...
+INFO:iMPACT - Current time: 05/06/2021 13:21:24
+// *** BATCH CMD : Identify -inferir 
+PROGRESS_START - Starting Operation.
+Identifying chain contents...'0': : Manufacturer's ID = Xilinx xc6slx9, Version : 2
+INFO:iMPACT:501 - '1': Added Device xc6slx9 successfully.
+----------------------------------------------------------------------
+done.
+PROGRESS_END - End Operation.
+Elapsed time =      0 sec.
+// *** BATCH CMD : identifyMPM 
+// *** BATCH CMD : assignFile -p 1 -file"D:/FPGA-Spartan6/fm_transmitter/top.bit"
+'1': Loading file 'D:/FPGA-Spartan6/fm_transmitter/top.bit' ...
+done.
+UserID read from the bitstream file = 0xFFFFFFFF.
+Data width read from the bitstream file = 1.
+INFO:iMPACT:501 - '1': Added Device xc6slx9 successfully.
+----------------------------------------------------------------------
+Selected part: W25Q32BV
+// *** BATCH CMD : attachflash -position 1 -spi "W25Q32BV"
+Unprotect sectors: FALSE
+// *** BATCH CMD : assignfiletoattachedflash -position 1 -file"D:/FPGA-Spartan6/fm_transmitter/Untitled.mcs"
+// *** BATCH CMD : attachflash -position 1 -spi "W25Q32BV"
+INFO:iMPACT - Current time: 05/06/2021 13:21:58
 // *** BATCH CMD : Program -p 1 -dataWidth 1 -spionly -e -v -loadfpga 
 Maximum TCK operating frequency for this device chain: 25000000.
 Validating chain...
 Boundary-scan chain validated successfully.
-'1': SPI access core not detected. SPI access core will be downloaded to thedevice to enable operations.
-INFO:iMPACT - Downloading core file   C:/Xilinx/14.7/ISE_DS/ISE/spartan6/data/xc6slx9_spi.cor.
-PROGRESS_START - Starting Operation.
-'1': Downloading core...
- LCK_cycle = NoWait.
-LCK cycle: NoWait
-done.
-'1': Reading status register contents...
-INFO:iMPACT:2219 - Status register values:
-INFO:iMPACT - 0011 1100 1110 1100 
-INFO:iMPACT:2492 - '1': Completed downloading core to device.
 '1': IDCODE is 'ef4016' (in hex).
 '1': ID Check passed.
+PROGRESS_START - Starting Operation.
 '1': IDCODE is 'ef4016' (in hex).
 '1': ID Check passed.
 '1': Erasing Device.
@@ -248,7 +161,141 @@ LCK cycle: NoWait
 INFO:iMPACT - '1': Checking done pin....done.
 '1': Programmed successfully.
 PROGRESS_END - End Operation.
-Elapsed time =     35 sec.
+Elapsed time =     29 sec.
+INFO:iMPACT - Current time: 05/06/2021 13:22:30
+// *** BATCH CMD : ReadStatusRegister -p 1 -spionly 
+Maximum TCK operating frequency for this device chain: 25000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'1': SPI access core not detected. SPI access core will be downloaded to thedevice to enable operations.
+INFO:iMPACT - Downloading core file   D:/Xilinx/14.7/ISE_DS/ISE/spartan6/data/xc6slx9_spi.cor.
+'1': Downloading core...
+PROGRESS_START - Starting Operation.
+ LCK_cycle = NoWait.
+LCK cycle: NoWait
+done.
+'1': Reading status register contents...
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 1100 1110 1100 
+INFO:iMPACT:2492 - '1': Completed downloading core to device.
+'1': IDCODE is 'ef4016' (in hex).
+'1': ID Check passed.
+'1': IDCODE is 'ef4016' (in hex).
+'1': ID Check passed.
+'1': IDCODE is 'ef4016' (in hex).
+'1': ID Check passed.
+W25Q32BV Status Register Contents = 0x0000.
+QUAD ENABLE                                       :         0
+STATUS REGISTER PROTECT 1                         :         0
+STATUS REGISTER PROTECT 0                         :         0
+SECTOR PROTECT                                    :         0
+TOP/BOTTOM PROTECT                                :         0
+BLOCK PROTECT BIT 2                               :         0
+BLOCK PROTECT BIT 1                               :         0
+BLOCK PROTECT BIT 0                               :         0
+INFO:iMPACT - '1': Reloading FPGA configuration data stored in flash...
+INFO:iMPACT:182 - done.
+PROGRESS_END - End Operation.
+Elapsed time =      3 sec.
+INFO:iMPACT - Current time: 05/06/2021 13:22:40
+// *** BATCH CMD : Checksum -p 1 -spionly 
+Maximum TCK operating frequency for this device chain: 25000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'1': SPI access core not detected. SPI access core will be downloaded to thedevice to enable operations.
+INFO:iMPACT - Downloading core file   D:/Xilinx/14.7/ISE_DS/ISE/spartan6/data/xc6slx9_spi.cor.
+'1': Downloading core...
+PROGRESS_START - Starting Operation.
+ LCK_cycle = NoWait.
+LCK cycle: NoWait
+done.
+'1': Reading status register contents...
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 1100 1110 1100 
+INFO:iMPACT:2492 - '1': Completed downloading core to device.
+'1': IDCODE is 'ef4016' (in hex).
+'1': ID Check passed.
+'1': IDCODE is 'ef4016' (in hex).
+'1': ID Check passed.
+'1': Reading device contents...
+done.
+All Checksum calculations are performed on the address range spanned by theconfiguration file.
+'1': Calculated checksum matches expected checksum, 0000a2969
+W25Q32BV Status Register Contents = 0x0000.
+QUAD ENABLE                                       :         0
+STATUS REGISTER PROTECT 1                         :         0
+STATUS REGISTER PROTECT 0                         :         0
+SECTOR PROTECT                                    :         0
+TOP/BOTTOM PROTECT                                :         0
+BLOCK PROTECT BIT 2                               :         0
+BLOCK PROTECT BIT 1                               :         0
+BLOCK PROTECT BIT 0                               :         0
+PROGRESS_END - End Operation.
+Elapsed time =     19 sec.
+// *** BATCH CMD : assignFile -p 1 -file"D:/FPGA-Spartan6/fm_transmitter/top.bit"
+'1': Loading file 'D:/FPGA-Spartan6/fm_transmitter/top.bit' ...
+done.
+UserID read from the bitstream file = 0xFFFFFFFF.
+Data width read from the bitstream file = 1.
+INFO:iMPACT:501 - '1': Added Device xc6slx9 successfully.
+----------------------------------------------------------------------
+Selected part: W25Q32BV
+// *** BATCH CMD : attachflash -position 1 -spi "W25Q32BV"
+Unprotect sectors: FALSE
+// *** BATCH CMD : assignfiletoattachedflash -position 1 -file"D:/FPGA-Spartan6/fm_transmitter/Untitled.mcs"
+INFO:iMPACT - Current time: 05/06/2021 13:23:45
+// *** BATCH CMD : Program -p 1 -dataWidth 1 -spi 
+Maximum TCK operating frequency for this device chain: 25000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'1': IDCODE is 'ef4016' (in hex).
+'1': ID Check passed.
+PROGRESS_START - Starting Operation.
+'1': IDCODE is 'ef4016' (in hex).
+'1': ID Check passed.
+'1': Programming Flash.
+'1':Programming in x1 mode.
+W25Q32BV Status Register Contents = 0x0000.
+QUAD ENABLE                                       :         0
+STATUS REGISTER PROTECT 1                         :         0
+STATUS REGISTER PROTECT 0                         :         0
+SECTOR PROTECT                                    :         0
+TOP/BOTTOM PROTECT                                :         0
+BLOCK PROTECT BIT 2                               :         0
+BLOCK PROTECT BIT 1                               :         0
+BLOCK PROTECT BIT 0                               :         0
+'1': Programming device...
+ LCK_cycle = NoWait.
+LCK cycle: NoWait
+done.
+'1': Reading status register contents...
+[0] CRC ERROR                                                              :        0
+[1] IDCODE ERROR                                                           :        0
+[2] DCM LOCK STATUS                                                        :        1
+[3] GTS_CFG_B STATUS                                                       :        1
+[4] GWE STATUS                                                             :        1
+[5] GHIGH STATUS                                                           :        1
+[6] DECRYPTION ERROR                                                       :        0
+[7] DECRYPTOR ENABLE                                                       :        0
+[8] HSWAPEN PIN                                                            :        1
+[9] MODE PIN M[0]                                                          :        1
+[10] MODE PIN M[1]                                                         :        1
+[11] RESERVED                                                              :        0
+[12] INIT_B PIN                                                            :        1
+[13] DONE PIN                                                              :        1
+[14] SUSPEND STATUS                                                        :        0
+[15] FALLBACK STATUS                                                       :        0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 1100 1110 1100 
+INFO:iMPACT:579 - '1': Completed downloading bit file to device.
+INFO:iMPACT:188 - '1': Programming completed successfully.
+ LCK_cycle = NoWait.
+LCK cycle: NoWait
+INFO:iMPACT - '1': Checking done pin....done.
+'1': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      5 sec.
+Cable is not connected.
 Project: 'D:\FPGA-Spartan6\fm_transmitter\\auto_project.ipf' created.
 // *** BATCH CMD : setMode -bs
 // *** BATCH CMD : setMode -ss
